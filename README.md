@@ -6,7 +6,9 @@
 [![C](https://img.shields.io/badge/C-A8B9CC?style=flat&logo=c&logoColor=black)](https://en.wikipedia.org/wiki/C_(programming_language))
 [![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)](https://python.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)](https://typescriptlang.org/)
-[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white)](https://nodejs.org/)
+[![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)](https://react.dev/)
+[![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=next.js&logoColor=white)](https://nextjs.org/)
 [![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)](https://kernel.org/)
 
 </div>
@@ -15,12 +17,62 @@
 
 ### `$ whoami`
 
-Security engineer & developer. Je creuse là où ça fait mal : systèmes, réseaux, binaires.
+Developer & security engineer. Je construis des outils, je casse des systèmes, je documente tout.
 
 ```
-Spécialités : Red Team · Forensic · OSINT · Dev sécurité
-Approche    : Comprendre d'abord, outiller ensuite, documenter toujours
+Focus    : Full-stack development · Security tooling · Red Team
+Approche : Comprendre d'abord, outiller ensuite, documenter toujours
 ```
+
+<br>
+
+## 🛠️ Projets
+
+<table>
+<tr>
+<td width="100%">
+
+### 🎯 Stentor
+
+Plateforme d'entraînement **Blue Team** basée sur **MITRE ATT&CK®**.  
+Former les analystes SOC à détecter de vraies traces d'attaques sur des VMs Windows.
+
+```
+Stack : Go · React · PostgreSQL · Docker · WebSocket
+```
+
+**Features** :
+- Catalogue de techniques MITRE (Persistence, Defense Evasion, Credential Access...)
+- Agent Windows exécutant les techniques sur VM cible
+- Interface instructeur/stagiaire avec scoring temps réel
+- 20+ techniques implémentées (T1547, T1053, T1003...)
+
+</td>
+</tr>
+<tr>
+<td width="100%">
+
+### 📚 Scribelia
+
+Plateforme sociale d'écriture collaborative — **Backend API + Frontend**.
+
+**Backend** (Fastify + TypeScript + Supabase) :
+```
+Stack : Node.js 20 · Fastify 4 · TypeScript · PostgreSQL · Redis
+```
+- Stories/chapters management, collaboration features
+- Real-time messaging, notifications
+- Contests system, gamification (XP, achievements)
+- Full-text search, moderation tools
+
+**Frontend** (Next.js App Router) :
+```
+Stack : Next.js 14 · React · TypeScript · Vitest · Playwright
+```
+
+</td>
+</tr>
+</table>
 
 <br>
 
@@ -30,13 +82,24 @@ Approche    : Comprendre d'abord, outiller ensuite, documenter toujours
 <tr>
 <td width="50%">
 
-### Offensive Security
-- Scénarios Red Team
-- Analyse de surfaces d'attaque  
-- Développement d'outils offensifs
-- Compréhension bas niveau
+### Development
+- **Full-stack platforms** (Go, Node.js, React, Next.js)
+- Backend APIs (REST, WebSocket)
+- CLI tools & automation
+- Clean architecture, testing, CI/CD
 
 </td>
+<td width="50%">
+
+### Offensive Security
+- Scénarios Red Team
+- Développement d'outils offensifs
+- Analyse de surfaces d'attaque
+- Compréhension bas niveau (systèmes, binaires)
+
+</td>
+</tr>
+<tr>
 <td width="50%">
 
 ### Digital Forensics
@@ -46,24 +109,13 @@ Approche    : Comprendre d'abord, outiller ensuite, documenter toujours
 - Memory & disk forensics
 
 </td>
-</tr>
-<tr>
 <td width="50%">
 
-### OSINT
-- Collecte automatisée
-- Corrélation multi-sources
-- Enrichissement technique
-- Profiling & attribution
-
-</td>
-<td width="50%">
-
-### Development
-- Outils CLI standalone
-- Backend APIs (Node.js)
-- Sécurité applicative
-- Automatisation & scripting
+### Security Research
+- OSINT & enrichissement technique
+- Malware analysis
+- Threat intelligence
+- Documentation & write-ups
 
 </td>
 </tr>
@@ -83,26 +135,6 @@ Approche    : Comprendre d'abord, outiller ensuite, documenter toujours
 
 <br>
 
-## 🛠️ Stack
-
-```yaml
-Languages:
-  Primary   : [Go, C, Python]
-  Secondary : [JavaScript, TypeScript, Bash]
-
-Security:
-  Offensive : [Metasploit, Cobalt Strike, custom tooling]
-  Forensic  : [Volatility, Autopsy, Sleuth Kit]
-  OSINT     : [Maltego, SpiderFoot, custom scrapers]
-
-Development:
-  Backend   : [Node.js, Express, REST APIs]
-  Tools     : [Git, Docker, Linux, Vim]
-  Practices : [CI/CD, testing, documentation]
-```
-
-<br>
-
 ## ⚡ Currently
 
 <div align="center">
@@ -113,11 +145,25 @@ Development:
 
 <br>
 
-## 📂 Projets
+## 🧰 Stack
 
-Dépôts publics : outils, expérimentations, bases réutilisables.
+```yaml
+Languages:
+  Primary   : [Go, TypeScript, Python]
+  Secondary : [C, JavaScript, Bash]
 
-> Signal technique réel, pas vitrine marketing.
+Development:
+  Backend   : [Node.js, Fastify, Express, Go net/http]
+  Frontend  : [React, Next.js, Vite]
+  Database  : [PostgreSQL, Supabase, Redis]
+  Testing   : [Vitest, Playwright, Go testing]
+  DevOps    : [Docker, GitHub Actions, Terraform]
+
+Security:
+  Offensive : [Metasploit, Cobalt Strike, custom tooling]
+  Forensic  : [Volatility, Autopsy, Sleuth Kit]
+  Research  : [Ghidra, x64dbg, Wireshark]
+```
 
 <br>
 
