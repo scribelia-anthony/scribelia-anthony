@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260">
+  <style>
+    text{font-family:Arial,Helvetica,sans-serif;font-size:18px;fill:#111}
+    .box{fill:#fff;stroke:#111;stroke-width:2;rx:16;ry:16}
+    .muted{fill:#444;font-size:14px}
+    .arrow{stroke:#111;stroke-width:2;marker-end:url(#m)}
+  </style>
+  <defs>
+    <marker id="m" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#111"/>
+    </marker>
+  </defs>
+
+  <text x="24" y="40" font-size="26">Workflow sécurité</text>
+  <text x="24" y="66" class="muted">Comprendre → Outiller → Agir → Analyser → Restituer</text>
+
+  <rect class="box" x="24" y="110" width="210" height="90"/>
+  <text x="44" y="150">Compréhension</text>
+  <text x="44" y="175" class="muted">système, menace</text>
+
+  <line class="arrow" x1="234" y1="155" x2="274" y2="155"/>
+
+  <rect class="box" x="274" y="110" width="210" height="90"/>
+  <text x="294" y="150">Outillage</text>
+  <text x="294" y="175" class="muted">CLI, scripts</text>
+
+  <line class="arrow" x1="484" y1="155" x2="524" y2="155"/>
+
+  <rect class="box" x="524" y="110" width="210" height="90"/>
+  <text x="544" y="150">Action contrôlée</text>
+  <text x="544" y="175" class="muted">Red Team</text>
+
+  <line class="arrow" x1="734" y1="155" x2="774" y2="155"/>
+
+  <rect class="box" x="774" y="110" width="210" height="90"/>
+  <text x="794" y="150">Analyse</text>
+  <text x="794" y="175" class="muted">traces, artefacts</text>
+
+  <line class="arrow" x1="984" y1="155" x2="1024" y2="155"/>
+
+  <rect class="box" x="1024" y="110" width="152" height="90"/>
+  <text x="1044" y="150">Restitution</text>
+  <text x="1044" y="175" class="muted">rapport</text>
+</svg>
