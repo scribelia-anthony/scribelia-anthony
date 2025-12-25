@@ -15,16 +15,15 @@
   
   <!-- Content -->
   <text x="20" y="55" font-family="JetBrains Mono, Fira Code, monospace" font-size="11" fill="#8b949e">
-    <tspan fill="#7ee787">▶</tspan> Learning   <tspan fill="#58a6ff">Rust internals, kernel dev</tspan>
+    <tspan fill="#7ee787">▶</tspan> Building   <tspan fill="#58a6ff">Full-stack platforms</tspan>
   </text>
   <text x="20" y="75" font-family="JetBrains Mono, Fira Code, monospace" font-size="11" fill="#8b949e">
-    <tspan fill="#f85149">▶</tspan> Building   <tspan fill="#58a6ff">Custom offensive tooling</tspan>
+    <tspan fill="#f85149">▶</tspan> Breaking   <tspan fill="#58a6ff">Things (legally)</tspan>
   </text>
   <text x="20" y="95" font-family="JetBrains Mono, Fira Code, monospace" font-size="11" fill="#8b949e">
-    <tspan fill="#a371f7">▶</tspan> Breaking   <tspan fill="#58a6ff">Things (legally)</tspan>
+    <tspan fill="#a371f7">▶</tspan> Learning   <tspan fill="#58a6ff">Rust internals, kernel dev</tspan>
   </text>
   <text x="20" y="115" font-family="JetBrains Mono, Fira Code, monospace" font-size="11" fill="#8b949e">
     <tspan fill="#ffa657">▶</tspan> Reading    <tspan fill="#58a6ff">Malware analysis papers</tspan>
   </text>
 </svg>
-
